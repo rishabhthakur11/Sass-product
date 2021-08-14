@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  scroll-behavior: smooth;
   font-family: "Merriweather Sans", sans-serif;
   color: white;
   background: #11121a;
@@ -169,20 +170,19 @@ header {
   .jobs-container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .button-container{
+  .button-container {
     width: 80px;
-    padding:10px;
+    padding: 10px;
   }
 }
 @media screen and (max-width: 600px) {
   .jobs-container {
     grid-template-columns: repeat(1, 1fr);
   }
-  .button-container{
+  .button-container {
     width: 200px;
   }
-  .button-container span{
+  .button-container span {
     font-size: 13px;
   }
-
 }
